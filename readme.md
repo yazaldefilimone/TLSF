@@ -1,6 +1,5 @@
 <samp>
 
-
 ### SpeedAllocator Overview
 
 The Two-Level Segregated Fit (SpeedAllocator) allocator is designed for real-time systems, providing constant and predictable response times for memory allocation and deallocation, while minimizing fragmentation.
@@ -23,7 +22,7 @@ The Two-Level Segregated Fit (SpeedAllocator) allocator is designed for real-tim
 
 3. **Bitmaps**: Used to quickly locate non-empty free lists, optimizing search operations.
 
-#### SpeedAllocator Structure Diagram
+SpeedAllocator Structure Diagram
 
 ```
 |  SpeedAllocator Structure  |
